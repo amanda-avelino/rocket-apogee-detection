@@ -20,3 +20,30 @@ The specific objectives were:
 - Automatically activate a servo motor responsible for the parachute deployment mechanism.
 - Provide an audible indication through a buzzer.
 - Validate the system through controlled bench tests simulating ascent and descent.
+
+## Hardware
+
+The system was built around an **ESP32** microcontroller and a **BMP085** barometric pressure sensor. The pressure sensor communicates with the ESP32 through the **I²C** protocol.
+
+The recovery mechanism uses an **SG90 servo motor**, while a **buzzer** provides an audible indication after apogee detection.
+
+### Main Components
+
+- ESP32 microcontroller
+- BMP085 barometric pressure sensor
+- SG90 servo motor
+- Buzzer
+- Protoboard
+- Jumper wires
+- USB cable
+
+### Pin Configuration
+
+| Component | ESP32 Pin |
+|---|---|
+| BMP085 SDA | GPIO 21 |
+| BMP085 SCL | GPIO 22 |
+| Servo | GPIO 13 |
+| Buzzer | GPIO 12 |
+| BMP085 VCC | 3.3 V |
+| Ground | GND |
