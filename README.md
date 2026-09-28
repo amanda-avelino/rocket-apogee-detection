@@ -50,6 +50,8 @@ The recovery mechanism uses an **SG90 servo motor**, while a **buzzer** provides
 | BMP085 VCC | 3.3 V |
 | Ground | GND |
 
+![Rocket mechanical components](images/rocket-mechanical-components.jpg)
+
 ## Software
 
 The embedded software was developed in **C using ESP-IDF** and organized into concurrent tasks using **FreeRTOS**.
