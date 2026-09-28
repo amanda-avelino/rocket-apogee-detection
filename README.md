@@ -6,6 +6,8 @@ This project presents the development of an embedded system designed to detect t
 
 The system was developed using an **ESP32**, a **BMP085 barometric pressure sensor**, a **servo motor**, and a **buzzer**. The software was implemented in **C with ESP-IDF**, using **FreeRTOS**, a finite state machine, and a moving-average filter for pressure data processing.
 
+![Assembled experimental rocket](images/rocket-assembled.jpg)
+
 ## Objectives
 
 The main objective of this project was to develop an embedded system capable of automatically detecting the apogee of an experimental rocket and activating a recovery mechanism.
